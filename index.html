@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>確率げー</title>
+        <link rel="stylesheet" href="css/menu.css">
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+    <body>
+        <div class="header"></div>
+        <input type="checkbox" class="openSidebarMenu" id="openSidebarMenu">
+        <label for="openSidebarMenu" class="sidebarIconToggle">
+            <div class="spinner diagonal part-1"></div>
+            <div class="spinner horizontal"></div>
+            <div class="spinner diagonal part-2"></div>
+        </label>
+        <div id="sidebarMenu">
+            <ul class="sidebarMenuInner">
+                <li><a href="https://tanaka2404.github.io/">メインページ</a></li>
+                <li><a href="https://tanaka2404.github.io/chrome-extensions">chrome拡張機能</a></li>
+                <li><a href="">確率ゲーム</a></li>
+                <li><p id="settingAnim">アニメーションを表示: yes</p></li>
+            </ul>
+        </div>
+        <div class="main">
+            <div id="fade" class="fade"></div>
+            <h1 id="kaisuu" class="kaisuu">回数:0</h1>
+            <h1 id="saikou" class="saikou">最高確率:1/1</h1>
+            <h1 id="kakuritu" class="kakuritu">1/1</h1>
+            <button id="red" class="block red">赤</button>
+            <button id="blue" class="block blue">青</button>
+        </div>
+        <script src="js/click.js"></script>
+    </body>
+</html>

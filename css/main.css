@@ -1,0 +1,54 @@
+.main {
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    height: calc(100% - 60px);
+}
+
+.block {
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 200px;
+    border: none;
+    margin-top: calc(50vh - 60px - 2px - 50px);
+    color: white;
+    font-size: 50px;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.kaisuu {
+    position: absolute;
+    left: 0px;
+}
+
+.saikou {
+    position: absolute;
+    left: 0px;
+    margin-top: 60px;
+}
+
+.kakuritu {
+    position: absolute;
+    font-size: 60px;
+}
+
+.fade {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    transform: translateY(-100%);
+}
+
+.settingFade {
+    transform: scale(1.5);
+}
